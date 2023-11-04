@@ -9,6 +9,8 @@
     "resolveJsonModule": true,
     "moduleResolution": "node",
     "isolatedModules": true,
+    "outDir": "./dist",    
+    "esModuleInterop": false,
     "noEmit": true,
     "allowJs": true,
     "jsx": "react",

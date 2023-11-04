@@ -3,7 +3,7 @@ import { useStore } from './store/store';
 
 const CounterComponent: React.FC = () => {
   const { counter, increment, decrement } = useStore();
-
+  
   return (
     <div>
       <p>Counter: {counter}</p>
