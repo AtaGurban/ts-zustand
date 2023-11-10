@@ -1,4 +1,5 @@
-export const LOGIN_PAGE = "/";
-export const TODO_PAGE = "/";
+export const LOGIN_PAGE = "/login";
+export const REGISTRATION_PAGE = "/registration";
+export const TODO_PAGE = "/todo";
 
 

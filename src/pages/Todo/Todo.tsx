@@ -1,6 +1,8 @@
 import React, { FC } from 'react'
-
-const Todo:FC = () => {
+interface TodoProps {
+  // Ваши свойства Todo, если есть
+}
+const Todo:FC<TodoProps> = () => {
   return (
     <div>Todo</div>
   )

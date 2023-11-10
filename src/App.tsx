@@ -1,15 +1,13 @@
 import React from 'react';
-import { useStore } from './store/store';
-
+import { BrowserRouter } from "react-router-dom";
+import AppRouter from './components/AppRouter';
+import "./App.css"
 const CounterComponent: React.FC = () => {
-  const { counter, increment, decrement } = useStore();
-  
+ 
   return (
-    <div>
-      <p>Counter: {counter}</p>
-      <button onClick={increment}>Increment</button>
-      <button onClick={decrement}>Decrement</button>
-    </div>
+    <BrowserRouter>
+      <AppRouter/> 
+    </BrowserRouter>
   );
 };
 
