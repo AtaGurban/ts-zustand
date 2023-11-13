@@ -1,5 +1,5 @@
 type FormDataInput = {
-  [key: string]: string | Date | number | File | Blob;
+  [key: string]: string | Date | number | File | Blob | null;
 };
 interface queryType {
   [key: string]: string | number | Date;

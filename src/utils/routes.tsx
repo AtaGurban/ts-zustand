@@ -1,5 +1,5 @@
 import React from "react";
-import { LOGIN_PAGE, TODO_PAGE } from "./pathConsts";
+import { LOGIN_PAGE, REGISTRATION_PAGE, TODO_PAGE } from "./pathConsts";
 import Todo from "../pages/Todo/Todo"
 import Login from "../pages/Login/Login";
 interface RouteItem {
@@ -17,6 +17,10 @@ export const authRoutes:RouteItem[] = [
 export const publicRoutes:RouteItem[] = [
   {
     path: LOGIN_PAGE,
+    Element: <Login/>
+  },
+  {
+    path: REGISTRATION_PAGE,
     Element: <Login/>
   },
 ]

@@ -23,6 +23,6 @@ export interface RegistrationCredentials {
   name: string;
   password: string;
   phone: string;
-  birthdate: Date;
-  [key: string]: string | Date;
+  birthdate: Date | null;
+  [key: string]: string | Date | null;
 }
